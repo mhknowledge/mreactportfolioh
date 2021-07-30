@@ -7,7 +7,7 @@ function Navigation(props) {
       <nav class="navbar navbar-expand navbar-dark bg-dark">
         <div class="container">
           <Link class="navbar-brand" to="/">
-            React Multi-Page Website
+            Muhammed Hassan-Full Stack Developer
           </Link>
 
           <div>
@@ -29,6 +29,15 @@ function Navigation(props) {
               >
                 <Link class="nav-link" to="/about">
                   About
+                </Link>
+              </li>
+              <li
+                class={`nav-item  ${
+                  props.location.pathname === "/portfolio" ? "active" : ""
+                }`}
+              >
+                <Link class="nav-link" to="/portfolio">
+                  Portfolio
                 </Link>
               </li>
               <li
