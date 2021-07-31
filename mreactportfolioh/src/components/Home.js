@@ -4,7 +4,7 @@ import Typed from "react-typed";
 
 const Home = () => {
   return (
-    <div className="home">
+    <div class="home">
       <div class="main-info">
           <h1>Full-Stack Developer</h1>
           <Typed
