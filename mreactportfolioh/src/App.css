@@ -25,10 +25,16 @@ body {
   background-size: cover;
   background-position: center;
   height: 90vh;
+  opacity: 0.945;
+}
+
+.home h1 {
+  color: var(--primary-orange);
+  text-transform: uppercase;
 }
 .main-info {
   display: flex;
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   left: 0;
   right: 0;
@@ -36,13 +42,26 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: left;
   font-family: "Roboto Condensed", sans-serif;
   z-index: 1;
 }
 .main-info h1 {
   color: var(--primary-orange);
   text-transform: uppercase;
+}
+.main-info h2 {
+  color: var(--primary-orange);
+  text-transform: uppercase;
+ }
+ 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: var(--primary-white);
+  text-align: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
