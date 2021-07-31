@@ -4,12 +4,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Navigation, Footer, Home, About, Contact, Portfolio } from "./components";
 
+
 function App() {
   return (
     <div className="App">
+     
       <Router>
-        <Navigation />
-        <Switch>
+      <Navigation />
+         <Switch>
           <Route path="/" exact component={() => <Home />} />
           <Route path="/about" exact component={() => <About />} />
           <Route path="/contact" exact component={() => <Contact />} />
@@ -17,6 +19,7 @@ function App() {
         </Switch>
         <Footer />
       </Router>
+     
     </div>
   );
 }

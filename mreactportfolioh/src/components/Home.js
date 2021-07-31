@@ -11,7 +11,7 @@ const Home = () => {
           <h2>
           <Typed
               class="typed-text"
-              strings={["HTML", "CSS", "JavaScript", "MongoDB", "mySQL", "NodeJs","ReactJS", "Full Stack", "MERN"]}
+              strings={["HTML", "CSS", "JavaScript", "MongoDB", "mySQL", "Node.Js","React.JS", "Handlebars", "Full Stack", "MERN"]}
               typeSpeed={40}
               backSpeed={60}
               loop
@@ -20,6 +20,7 @@ const Home = () => {
           </div>
 
         </div>
+        
   )
 }
 
