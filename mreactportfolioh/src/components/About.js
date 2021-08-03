@@ -6,7 +6,7 @@ function About() {
       <div class="container">
         <div class="row align-items-center my-5">
           <div class="col-lg-7">
-          <img src="../images/photo2.PNG" alt="myPhoto" class="img-thumbnail"></img>
+          <img src="images/photo2.PNG" alt="myPhoto" class="img-thumbnail"></img>
           </div>
           <div class="col-lg-5">
             <h1 class="font-weight-light">About</h1>
